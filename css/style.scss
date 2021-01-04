@@ -1,3 +1,10 @@
+// Färg variabler
+
+$primary-c: #e80097;
+$secondary-c: #00E8E8;
+
+// Färg variabler stop...
+
 * {
     padding: 0;
     margin: 0;
@@ -21,13 +28,13 @@ body {
 // Style för alla labels
 
 .t-lable {
-    color: #e80097;
+    color: $primary-c;
 }
 
 // Style för alla labels - stop...
 
 .btn-primary-p {
-    background: #00E8E8;
+    background: $secondary-c;
     transition: 1s ease;
 }
 
@@ -35,7 +42,7 @@ body {
 .btn-primary-p:hover {
     transition: 1s;
     transition-timing-function: ease;
-    background: #e80097;
+    background: $primary-c;
 }
 
 .checkis-form-group{
