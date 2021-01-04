@@ -1,5 +1,3 @@
-$grid-breakpoints: (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px, xxl: 1400px);
-
 * {
     padding: 0;
     margin: 0;
@@ -20,13 +18,13 @@ body {
 
 }
 
+// Style för alla labels
+
 .t-lable {
     color: #e80097;
 }
 
-.t-lable-t {
-    color: #00E8E8;
-}
+// Style för alla labels - stop...
 
 .btn-primary-p {
     background: #00E8E8;
